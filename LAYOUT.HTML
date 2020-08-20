@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+        *       {box-sizing:border-box;}
+ body   {width:960px;
+        margin:0 auto;}
+#header         {background-color:navy;
+                width:920px;
+                }
+#container      {width:920px;
+                overflow:auto;
+                }
+.column1        {width:200px;
+                padding:5px;
+                margin:3px;
+                background-color:grey;
+                float:left;}
+.column2        {width:400px;
+                float:left;
+                margin:3px;
+                padding:5px;
+                background-color:aqua;}
+.column3        {width:300px;
+                float:left;
+                margin:3px;
+                padding:5px;
+                background-color:maroon;}
+#footer         {clear:both;
+                background-color:black;
+                color:white;
+                text-align:cener;
+                width:920px;}
+ul              {padding:3px;
+                margin:0px;
+                list-style-type:none;}
+li              {display:inline;
+                margin:0px 3px;}
+a               {text-decoration:none;
+                color:white;}
+a:hover         {background-color:green;
+                color:white;
+                border-bottom:2px; double white;}
+#photo          {width:200px;
+                height:200px;
+                border:3px white solid;
+                border-radius:50%;
+                padding:4px;
+                margin:3px;}
+#black          {width:200px;
+                height:200px;
+                border:1px solid black;
+                border-radius:20px;}
+#column2        {display:flex;
+                flex-direction:row;}
+article         {border:1px groove blue;
+                margin:3px;
+                padding:1px;
+                border-radius:5px;
+#input          {float:right;
+                position:absolute;
+                right:20px}
+                
+#nav            {float:left;}
+#logo           {width:30px;
+                height:30px;
+                padding:2px;
+                margin:2px;
+                }
+</style>
+
+</head>
+<body>
+
+<div id="header">
+        <img src="save.png" alt="save" tile="logo" id="logo">
+        <div id="nav">
+        <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Image</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Window</a></li>
+        </ul>
+        </div>
+        <div id="input">
+        <input type="search" name="search" id="search" placeholder="searh here...">
+        <label for="search">Search</label>
+        </div>
+</div>
+<div id="container">
+        <div class="column1">
+                <img src="girl.jpg" alt="girl photo" title="pboto" id="photo">
+                <p>learn to be happy with youself</p>
+        </div>
+        <div class="column2">
+               <article> <P> learn whatever you want to learn, i and alway in provo your reading skills</P></article>
+               <article> <P> learn whatever you want to learn, i and alway in provo your reading skills</P></article>
+               <article> <P> learn whatever you want to learn, i and alway in provo your reading skills</P></article>
+               <article> <P> learn whatever you want to learn, i and alway in provo your reading skills</P></article>
+        </div>
+        <div class="column3">
+                <p>And this is last column i also learn to be the gread</p>
+                <img src="black.jpg" alt="black" title="black pic" id="black">
+        </div>
+</div>
+<div id="footer">
+        <p>copyright@gmail.com</p>
+</div>
+
+
+
+
+
+</body>
+</html>
